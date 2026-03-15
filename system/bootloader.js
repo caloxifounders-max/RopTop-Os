@@ -34,3 +34,12 @@ window.addEventListener('keydown', (event) => {
         cubeJump();
     }
 });
+function openApp(name, content) {
+    document.getElementById('app-window').style.display = 'block';
+    document.getElementById('app-title').innerText = name;
+    document.getElementById('app-content').innerHTML = content;
+}
+
+function closeApp() {
+    document.getElementById('app-window').style.display = 'none';
+}
