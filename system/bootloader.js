@@ -41,5 +41,11 @@ function openApp(name, content) {
 }
 
 function closeApp() {
-    document.getElementById('app-window').style.display = 'none';
+    document.getElementById('app-window').style.display = 'function installApp(appName) {
+    showNotification("Downloading " + appName + "...", "#ff00ff");
+    
+    setTimeout(() => {
+        showNotification(appName + " Installed Successfully!", "#00ff00");
+        // Here we could add logic to make a new button appear!
+    }, 2000);
 }
