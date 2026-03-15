@@ -9,3 +9,4 @@ function changeSkin(newSkin) {
 }
 
 console.log("Icon Kit Module Loaded successfully.");
+<div class="button" onclick="changeSkin('Neon Demon Cube')">ICON KIT</div>
