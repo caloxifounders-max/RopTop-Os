@@ -1,1 +1,7 @@
-
+{
+  "os_name": "RopTop-Os",
+  "version": "0.0.1-alpha",
+  "author": "caloxifounders-max",
+  "theme": "Extreme Demon Neon",
+  "features": ["icons", "music", "levels"]
+}
